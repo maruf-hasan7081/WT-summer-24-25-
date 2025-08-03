@@ -1,69 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login page </title>
-        <style>
-        table{
-            margin: 50px;
-            border: 50px;
-            padding: 150px;
-            background-color:rgb(43, 43, 42);
-        }
-        input[type="text"], input[type="password"] {
-            padding: 2px;
-            width: 150%;
-        }
-        input[type="submit"] {
-            padding: 10px;
-            width: 100%;
-            background-color: rgb(15, 15, 16);
-            color: rgb(99, 40, 40);
-            border: none;
-            
-        }
-       
-        </style>
-    </head>
-    <body style="background-color: black;">
+<head>
+    // update 
+    <title>Bank Management System</title>
+    <style>
+    h1,h2{
+       text-align:center;
+       color:blue;
+    }
+    table{
+        align:center;
+        Background-color:white;
+        margin:2px;
+        border:50px;
+        padding:20px;
 
-        <center>
-            <a href="html_images.asp" 
-target="_blank"
->HTML Images</a>
-            
-        <table>
-           
-            <center>
-                <h1 style="color: white;">Login Form</h1>
-            </center>
-            <tr>
-                
-                <td style="color: white;"><b>Username:</b></td>
-                
-                </tr>
-            <tr>
-                
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                
-                <td style="color: white;"><b>Password:</b></td>
-            </tr>
-            <tr>
-                
-                <td><input type="password" ></td>
-            </tr>
-            <tr>
-                <td>
+    }
+    input [type="text"], [type="email"],[type="password"]{
+        padding: 2px;
+        width: 90%;
+    }
+    </style>
 
-                </td>
-                <td>
-                    <input type="submit" value="Login">
-                </td>
-            </tr>
-        </table>
-        </center>
+    <!-- and end with -->
+   
+
+</head>
+<body style ="background-image:url('pexels-anjana-c-169994-674010.jpg');">
+   
+    <h1>Bank Management System</h1>
+    <h2>Your trusted Financial partner</h2>
+   
+    <center>
+         <h3 style="color:white";>Customer Registration From</h3>
+    <table>
+    <tr>
+        <td>Full Name :</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Date of Birth:</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td>gender:</td>
+        <td><input type="radio" name="des">male
+            <input type="radio" name="des">Female
+            <input type="radio" name="des">other 
+    </td>
+    </tr>
+    <tr>
+        <td>Marital Status:</td>
+        <td>
+            <select name ="marital_status">
+                
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option> 
+        </td>
+    </tr>
+    <tr>
+        <td>Account Type:</td>
+        <td>
+            <select name="account_type">
+                <option value="savings">Savings</option>
+                <option value="current">Current</option>
+                <option value="fixed">Fixed Deposit</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Initial Deposit Amount:</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Mobile Number:</td>
+        <td><input type="text"</td>
+    </tr>
+    <tr>
+        <td>Email Address:</td>
+        <td><input type="email"></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><input type="text"></td>
+        
+    </tr>
+    <tr>
+        <td>Occupation :</td>
+        <td><input type="text"</td>
+    </tr>
+    <tr>
+        <td>National ID (NID):</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr></tr>
+        <td>Set passWord:</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td>Upload Id Proof :</td>
+        <td><input type="File"></td>
+
+    </tr>
+    <tr>
+        
+        <td><input type="checkbox">I agree to the tram and conditions</td>
+    </tr>
+     
+<tr>
+     <td>
+
+    </td>
+    <td><input type ="submit" value="register">
+    <input type ="reset" value="clear"></td>
+
+</tr>
+   
+    </table>
+    </center>
 
 
-    </body>
+
+
+
+    <br>
+
+
+</body>
 </html>
