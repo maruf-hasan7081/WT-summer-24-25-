@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Donor Information</title>
+        <link rel="stylesheet" type="text/css" href="...CSS/task_3_style.css">
+        <script src="JS/task_3_valid.js"></script>
+       
+
+    </head>
+    <body>
+
+        
+
+        <center>
+            <h1>Donor Information</h1>
+
+        <form onsubmit ="return handlesubmit()">
+            
+
+            <label>First Name:</label><br> 
+            <input type="text"><br>
+            <label>Last Name:</label><br>
+            <input type="text"><br>
+            <label>Adress:</label><br>
+            <input type="text"><br>
+            <label>City:</label><br>
+            <input type="text"><br>
+            <label>State:</label><br>
+            <select>
+                <option value="select">Select A STATE</option>
+                <option value="dhaka">dhaka</option>
+                <option value="chottogram">chottogram</option>
+                <option value="khulna">khulna</option>
+                <option value="barishal">barishal</option>
+                <option value="Cumilla">Cumilla</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+            </select><br>
+            <label>Phone:</label><br>
+            <input type="text"><br>
+            <label>Email:</label><br>
+            <input type="email"><br>
+            <label>Cretae password(min 8 characters):</label><br>
+            <input type="password" ><br>
+            <label>Confirm password:</label><br>
+            <input type="password" ><br>
+            <label>Donation amount:</label>
+            <input type ="radio" name="amount" value="none">none
+            <input type ="radio" name="amount" value="500">500 BDT
+            <input type ="radio" name="amount" value="1000">1000 BDT
+            <input type ="radio" name="amount" value="2000">2000 BDT
+            <input type ="radio" name="amount" value="3000">3000 BDT
+            <input type ="radio" name="amount" value="other">other <br>
+
+            <input type="checkbox">i am interested in giving on a regular basis<br>
+
+            <h1>Additional Information</h1>
+            <table>
+                <tr>
+            <td><input type="checkbox" >I would like my gift to remain anonymous</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" >My employer offers a matching gift program</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" >Please dont't send thank you letter</td>
+            </tr>
+             </table>
+            <label>Comments:</label><br>
+            <input type="text"><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        
+        </form>
+        </center>
+        
+
+
+
+    </body>
+
+</html>
