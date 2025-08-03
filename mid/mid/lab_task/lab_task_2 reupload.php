@@ -9,6 +9,7 @@
        color:blue;
     }
     table{
+        align:center;
         Background-color:blue;
         margin:2px;
         border:50px;
@@ -20,13 +21,18 @@
         width: 90%;
     }
     </style>
+
+    <!-- and end with -->
    
 
 </head>
-<body>
+<body style ="background-image:url('pexels-anjana-c-169994-674010.jpg');">
+   
     <h1>Bank Management System</h1>
     <h2>Your trusted Financial partner</h2>
-    <h3>Customer Registration From</h3>
+   
+    <center>
+         <h3 style="color:white";>Customer Registration From</h3>
     <table>
     <tr>
         <td>Full Name :</td>
@@ -78,6 +84,7 @@
     <tr>
         <td>Address</td>
         <td><input type="text"></td>
+        
     </tr>
     <tr>
         <td>Occupation :</td>
@@ -111,6 +118,7 @@
 </tr>
    
     </table>
+    </center>
 
 
 
